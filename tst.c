@@ -4,7 +4,9 @@ struct thread_stack {
 	size_t             stack_sz;      /**< Stack size. */
 	struct sys_timer *tmr;
 	clock_t remain;
-	aaaaaaaaaaaaaaaaaaaa b;
+	aaaaaaaaaadaaaaaaaaaa b;
+	
+	
 	clock_t last_sync;
 	int status;
 };
@@ -35,7 +37,7 @@ static void ASM(void) {
 	__asm__ __volatile__(
 		"mcr p15, 0, %0, c7, c10, 5"
 		: : "r" (0) : "memory");
-	__asm__ __volatile__ (
+	__asm__ 	__volatile__ (
   		"mrs %0, PRIMASK;\n\t"
   		"cpsid i \n\t"
  		: "=r"(r)
