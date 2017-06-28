@@ -56,7 +56,8 @@ static void ASM(void) {
 		}
 		break;
 	case '?':
-	case 'h':
+		case'\\':
+	case 'h' :
 		print_usage();
 
 		
