@@ -4,7 +4,7 @@ struct thread_stack {
 	size_t             stack_sz;      /**< Stack size. */
 	struct sys_timer *tmr;
 	clock_t remain;
-	aaaaaaaaaadaaaaaaaaaa b;
+	aaaaaaaaaanndaaaaaaaaaa b;
 	
 	
 	clock_t last_sync;
@@ -20,14 +20,14 @@ int a16, int a17) {
     if (local = bar(a1, a2, a3,
             a16, a17)) {int local2;
     }
-	if (r = timer_set(&info->tmr, TIMER_ONESHOT, jiffies2ms(info->remain),
+	if (	r = timer_set(&info->tmr, TIMER_ONESHOT, jiffies2ms(info->remain),
 		sched_wait_timeout_handler, &self->schedee) +
 		foodie(12)) {
 	}
 	foodie(aaaaaaaaaaaa,
 	bbbbbbbb);
 	//while
-	while (1) i++;
+	while		 (1) i++;
 	while(1);
 	//arithmetic + cast
 	int x = (int)((double)a/13 +13 );
