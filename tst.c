@@ -39,7 +39,7 @@ static void ASM(void) {
 		: : "r" (0) : "memory");
 	__asm__ 	__volatile__ (
   		"mrs %0, PRIMASK;\n\t"
-  		"cpsid i \n\t"
+  							"cpsid i \n\t"
  		: "=r"(r)
 	);
     __asm__ __volatile__ (
