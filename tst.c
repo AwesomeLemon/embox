@@ -87,8 +87,8 @@ returns://returns seem broken: https://github.com/uncrustify/uncrustify/issues/1
 			"r12=%08x r14=%08x\n"
 		"cpsr=%08x spsr=%08x\n",
 		regs[2], regs[3], regs[4], regs[5],
-		regs[6], regs[7], regs[8], regs[9],
-				regs[10], regs[11], regs[12], regs[13],
+				regs[6], regs[7], regs[8], regs[9],
+		regs[10], regs[11], regs[12], regs[13],
 		regs[14], regs[15],
 	    regs[0], regs[1]);
 
