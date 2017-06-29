@@ -8,6 +8,8 @@ struct thread_stack {
 	
 	
 	clock_t last_sync;
+	
+	
 	int status;
 };
 //structure initialization
