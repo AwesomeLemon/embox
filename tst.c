@@ -23,8 +23,8 @@ int a16, int a17) {
             a16, a17)) {int local2;
     }
 	if (	r = timer_set(&info->tmr, TIMER_ONESHOT, jiffies2ms(info->remain),
-		sched_wait_timeout_handler, &self->schedee) +
-		foodie(12)) {
+				sched_wait_timeout_handler, &self->schedee) +
+foodie(12)) {
 	}
 	foodie(aaaaaaaaaaaa,
 	bbbbbbbb);
