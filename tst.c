@@ -30,9 +30,9 @@ foodie(12)) {
 	bbbbbbbb);
 	//while
 	while		 (1) i++;
-	while(1);
+	while  (1);
 	//arithmetic + cast
-	int x = (int)((double)a/13 +13 );
+	int x = 		(int)((double)a/13 +13 );
 }
 static void ASM(void) {
 	//asm
